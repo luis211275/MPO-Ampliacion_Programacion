@@ -1,24 +1,183 @@
-# Compiled class file
+############################
+# ARCHIVOS DE COMPILACIÓN  #
+############################
 *.class
-
-# Log file
-*.log
-
-# BlueJ files
-*.ctxt
-
-# Mobile Tools for Java (J2ME)
-.mtj.tmp/
-
-# Package Files #
-*.jar
 *.war
-*.nar
 *.ear
+*.jar
+*.nar
 *.zip
 *.tar.gz
 *.rar
 
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+###########################
+# ARCHIVOS TEMPORALES     #
+###########################
+*.log
+*.tmp
+*.bak
+*.swp
+*.swo
+*.DS_Store
+Thumbs.db
+ehthumbs.db
+*.orig
+
+###########################
+# CONFIGURACIONES DEL SO  #
+###########################
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Linux
+*~
+
+###########################
+# DIRECTORIOS DE COMPILACIÓN #
+###########################
+/bin/
+/build/
+/out/
+/target/
+/classes/
+/dist/
+/tmp/
+/release/
+/generated/
+/dependency-reduced-pom.xml
+
+###########################
+# IDEs Y EDITORES         #
+###########################
+
+# Eclipse
+.project
+.classpath
+.settings/
+.loadpath
+.recommenders/
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+
+# NetBeans
+nbproject/private/
+build/
+nbbuild/
+dist/
+nbdist/
+nbactions.xml
+nb-configuration.xml
+
+# VS Code
+.vscode/
+.history/
+.settings/
+
+# STS (Spring Tool Suite)
+.springBeans
+
+###########################
+# MAVEN                   #
+###########################
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+
+###########################
+# GRADLE                  #
+###########################
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+gradle-app.setting
+gradle-app.properties
+gradle.properties
+gradle-local.properties
+
+###########################
+# LOGS Y TEMPORALES       #
+###########################
+logs/
+*.log
 hs_err_pid*
 replay_pid*
+*.hprof
+
+###########################
+# ARCHIVOS DE TEST Y COVERAGE #
+###########################
+test-output/
+*.coverage
+*.lcov
+coverage/
+.jacoco/
+.jacoco-test.exec
+site/
+.surefire/
+.surefire-*
+.atlassian-ide-plugin.xml
+
+###########################
+# OTRAS CONFIGURACIONES   #
+###########################
+.env
+*.env
+local.properties
+.secret/
+.idea_modules/
+.cache/
+*.bak
+*.rej
+*.orig
+
+###########################
+# CONTENIDO ESPECÍFICO DE SERVIDORES #
+###########################
+/*.war
+*.ear
+*.sar
+*.nar
+*.rar
+*.zip
+
+###########################
+# CONFIGURACIÓN DE DOCKER #
+###########################
+docker-compose.override.yml
+.docker/
+Dockerfile.*
+docker-compose*.yml
+
+###########################
+# CONFIGURACIÓN DE SONARQUBE #
+###########################
+.sonar/
+.scannerwork/
+
+###########################
+# CONFIGURACIÓN DE LOMBOK #
+###########################
+lombok.config
+
+###########################
+# ARCHIVOS DE CI/CD       #
+###########################
+/coverage-final.json
+/.nyc_output/
+/reports/
+/test-results/
