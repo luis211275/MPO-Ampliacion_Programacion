@@ -15,23 +15,21 @@ public class ControlAcceso_Luis {
 
         do {
             edad = sc.pedirNumero("Ingrese su edad: ");//Scanner
-            for (int i = 1; i <= edad; i++) {
-                if (edad < 0 || edad > 120) {
-                    System.out.println("Error: Edad no valida.");
-                    salida = false;
-                    System.out.println("Intento " + i + " de 3");
-                    return i;
-                } else {
-                    salida = true;
 
-                }
+            if (edad < 0 || edad > 120) {
+                System.out.println("Error: Edad no valida.");
+                salida = false;
 
+            } else {
+                salida = true;
 
             }
+
+
         }
-            while (!salida) ;//control de errrores
-            return edad;
-        }
+        while (!salida);//control de errrores
+        return edad;
+    }
 
 
     public static String AnalisisEdad(int edad) {
