@@ -1,4 +1,14 @@
-//CLASE CONTROL DE NOTAS CON EL METODO MAIN LUIS LÓPEZ-NUÑO DAW
+/**
+ * ejecucion controlNotas
+ * @author Alumno - Luis López-Nuño
+ * @version 1.0
+ */
+
+/*
+    * @author Alumno: Luis
+    Curso: DAW 1, ampliacion de programacion
+    fecha: 13/11/2025
+ */
 
 public class ControlNotas {
     private static final MyScanner sc = new MyScanner();
