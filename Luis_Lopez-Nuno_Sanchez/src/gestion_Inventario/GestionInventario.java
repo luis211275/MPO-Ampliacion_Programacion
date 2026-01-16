@@ -4,10 +4,7 @@ import gestion_Inventario.Exceptions.CodigoInvalidoException;
 import gestion_Inventario.Exceptions.PrecioInvalidoException;
 import gestion_Inventario.Exceptions.ProductoNoEncontradoException;
 
-import java.util.HashMap;
-import java.util.InputMismatchException;
-import java.util.Map;
-import java.util.Scanner;
+import java.util.*;
 
 public class GestionInventario {
     private static final Scanner sc = new Scanner(System.in);
@@ -19,7 +16,7 @@ public class GestionInventario {
 
 
     /**
-     * Metodo menu, donde se ejecutará el rpograma, añadiendo los otros metodos
+     * Metodo menu, donde se ejecutará el programa, añadiendo los otros metodos
      */
     public static void menu() {
         int opcion = 0;
@@ -28,10 +25,10 @@ public class GestionInventario {
                 System.out.println("===GESTION DE USUARIOS===");
                 System.out.println("1. Añadir producto" +
                             "\n2. Buscar producto" +
-                             "\n3. Actualizar precio" +
-                             "\n4. Mostrar inventario" +
+                            "\n3. Actualizar precio" +
+                            "\n4. Mostrar inventario" +
                             "\n5. Salir" +
-                         "\n Opcion: ");
+                            "\n Opcion: ");
                 opcion = sc.nextInt();
                 sc.nextLine();
                 switch (opcion) {
@@ -89,7 +86,7 @@ public class GestionInventario {
             }
         }while (!correcto);
         productos.put(producto, precio);
-        System.out.println("usuario registrado correctamente");
+        System.out.println("precio registrado correctamente");
     }
 
 

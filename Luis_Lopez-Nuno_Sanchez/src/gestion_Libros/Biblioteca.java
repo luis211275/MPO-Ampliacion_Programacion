@@ -30,7 +30,7 @@ public class Biblioteca {
     }
 
     /**
-     * Setter sel atributo arrayList <Libro>
+     * Setter del atributo arrayList <Libro>
      *
      * @param libros Establece los parametros de los atributos de la clase libro
      */
