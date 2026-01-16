@@ -53,6 +53,7 @@ public class Libro {
         return titulo;
     }
 
+
     /**
      * setter del atriburo titulo
      *
