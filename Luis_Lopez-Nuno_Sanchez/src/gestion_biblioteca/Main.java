@@ -132,16 +132,9 @@ public class Main {
             int cantidad = 0;
             do {
                 correcto = true;
-                try{
-                    System.out.println(libros);
-                    cantidad = sc.pedirNumero("Introduce el cantidad de libros: ");
-                    if (cantidad < 0) {
-                        throw new CantidadInvalidaException("La cantidad en stock no puede ser negativa");
-                    }
-                }catch (CantidadInvalidaException e) {
-                    System.out.println(e.getMessage());
-                    correcto = false;
-                }
+                System.out.println(libros);
+                cantidad = sc.pedirNumero("Introduce el cantidad de libros: ");
+
             }while (!correcto);
 
             inventario.put(libros, cantidad);

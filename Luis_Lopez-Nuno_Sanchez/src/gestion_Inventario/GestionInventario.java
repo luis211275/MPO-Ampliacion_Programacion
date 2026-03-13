@@ -118,8 +118,9 @@ public class GestionInventario {
         if (precio>0) {
             return precio;
 
+
         }
-        throw new PrecioInvalidoException("precio introducido no valido");
+        return precio;
     }
 
 

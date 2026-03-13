@@ -15,7 +15,7 @@ public class Libro {
      * Constructor principal de la clase Libro
      *
      * @param isbn            establece el isbn del libro
-     * @param titulo          establece el titulo del libro
+     * @param titulo          establece el titu lo del libro
      * @param anioPublicacion establece el año de publicacion del libro
      */
 
